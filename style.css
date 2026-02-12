@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+
+        :root {
+            --maroon: #800020;
+            --maroon-dark: #5a0016;
+            --maroon-light: #a3334c;
+            --bg-light: #f8e9ec;
+        }
+
+        body {
+            background-color: var(--bg-light);
+        }
+
+        header, footer {
+            background-color: var(--maroon-dark) !important;
+            color: white;
+        }
+
+        .navbar {
+            background-color: var(--maroon) !important;
+        }
+
+        .navbar a {
+            color: white !important;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            color: #ffd9df !important;
+        }
+
+        h1, h2 {
+            color: var(--maroon-dark);
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+    
